@@ -6,8 +6,6 @@ let title = document.querySelector('h1').textContent
 let text = document.querySelector('main').textContent
 let $readingTime = document.getElementById('readingTime')
 
-
-
 window.addEventListener('scroll', event => {
 let windowH = window.innerHeight
 let documentH = document.documentElement.scrollHeight
